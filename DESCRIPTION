@@ -1,0 +1,19 @@
+Package: Deseq
+Type: Package
+Title: DESeq2 Gene Differential Analysis
+Version: 1.0
+Date: 2016-12-14
+Author: Coraline Qu
+Maintainer: Coraline Qu <qux1@mskcc.org>
+URL: http://github.com/Coraline66/Deseq
+Description: This package allows you to perform DESeq2 differential analysis to the htseq counts files of different TCGA data types.
+License: GPL-2
+LazyData: true
+Imports:
+    DESeq2,
+    parallel,
+    Resampling
+RoxygenNote: 5.0.1.9000
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr

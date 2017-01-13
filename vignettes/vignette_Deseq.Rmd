@@ -1,0 +1,22 @@
+---
+title: "User's Guide for Package Deseq"
+author: "Coraline Qu"
+date: "`r Sys.Date()`"
+output: 
+  pdf_document: 
+    toc: true
+    toc_depth: 3
+    number_sections: true
+    highlight: tango
+    df_print: kable
+  fontsize: 11pt
+  geometry: margin=lin
+---
+
+\newpage
+
+
+Also a quote using `>`:
+
+> "He who gives up [code] safety for [code] speed deserves neither."
+([via](https://twitter.com/hadleywickham/status/504368538874703872))
